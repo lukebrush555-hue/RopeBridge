@@ -10,7 +10,7 @@ export default function LandingPage() {
             RopeBridge
           </h1>
           <p className="text-xl text-blue-200 mb-8">
-            Monetize Your AI Prompts. Keep Them Secret.
+            Monetize Your AI Prompts. Keep Them Secret. 🚀
           </p>
           <div className="flex gap-4 justify-center">
             <a
