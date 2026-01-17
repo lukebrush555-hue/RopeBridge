@@ -25,12 +25,6 @@ export default function LandingPage() {
             >
               Browse Prompts
             </a>
-            <button
-              onClick={() => alert('It worked! 🎉 Claude can deploy to production!')}
-              className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition"
-            >
-              Test Button
-            </button>
           </div>
         </div>
 
