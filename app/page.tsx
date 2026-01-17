@@ -1,4 +1,6 @@
 // app/page.tsx - Landing Page for RopeBridge
+'use client';
+
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
@@ -23,6 +25,12 @@ export default function LandingPage() {
             >
               Browse Prompts
             </a>
+            <button
+              onClick={() => alert('It worked! 🎉')}
+              className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg font-semibold transition"
+            >
+              Test Button
+            </button>
           </div>
         </div>
 
