@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "defaultMode": "auto-accept",
+    "allow": ["Skill"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "bash.*supabase.*production",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '⚠️  WARNING: Production database operation detected! Review carefully: $TOOL_INPUT'"
+          }
+        ]
+      }
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "10000",
+    "MAX_MCP_OUTPUT_TOKENS": "50000",
+    "ENABLE_TOOL_SEARCH": "auto:5"
+  }
+}

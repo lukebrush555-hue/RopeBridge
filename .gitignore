@@ -23,10 +23,18 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
 
 # vercel
 .vercel
+
+# supabase local
+.supabase/
+
+# claude local settings (but keep .claude/settings.json committed)
+.claude/settings.local.json
+.claude/**/*.local.json
 
 # typescript
 *.tsbuildinfo

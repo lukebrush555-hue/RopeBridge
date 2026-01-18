@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "type": "http",
+      "url": "${SUPABASE_MCP_URL}",
+      "headers": {},
+      "disabled": true,
+      "notes": "After setting up Claude Desktop natively: 1) Get MCP URL from Supabase Dashboard → Settings → MCP, 2) Run: claude mcp add --transport http supabase --scope project https://your-mcp-url, 3) Remove this placeholder entry"
+    }
+  }
+}
